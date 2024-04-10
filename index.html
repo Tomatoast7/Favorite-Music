@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fav's</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Aimer_STANDALONE.jpg">
+</head>
+<body>
+    
+        <!--Container 1-->
+        <div class="container-1">
+            <div class="header">Favorites <img class="icon" src="headphones.png" width="50"></div>    
+            <div class="thin-line"></div>
+
+            <div class="music-container">
+               <img class="green-day" src="green.jpg" width="500"> 
+                <img class="vaundy" src="Vaundy.png" width="500">
+               <img class="radiohead" src="radiohead.jpg" width="330" height="500">
+                <ul>
+                    <li class="song-container"><div class="color-container">Green</div> Day - Boulevard of Broken Dreams</li>
+                    <button onmousedown="sound1.play()" class="btn">Play</button>
+                    
+                </ul>
+                <ul>
+                    <li class="song-container2"><div class="color-container2">Vaundy</div> - Odoriko</li>
+                    <button onmousedown="sound2.play()" class="btn">Play</button>
+                </ul>
+                <ul>
+                    <li class="song-container3"><div class="color-container3">Radiohead</div> - Creep</li>
+                    <button onmousedown="sound3.play()" class="btn-green">Play</button>
+                </ul>
+               
+
+            </div>
+            <script>
+                var sound1 = new Audio();
+                sound1.src = "Green Day - Boulevard Of Broken Dreams [Official Music Video].mp3"
+                var sound2 = new Audio();
+                sound2.src = "Vaundy - Orodiko.mp3"
+                var sound3 = new Audio();
+                sound3.src = "Radiohead - Creep.mp3"
+             </script>
+        </div>
+        
+     
+
+
+        <!--Container 2 -->
+        <div class="container-2">
+           
+
+            <div class="music-container">
+                 <img class="laufey" src="laufey.jpg" width="500"> 
+                <img class="aimer" src="Aimer_STANDALONE.jpg" width="500">
+                <img class="radiohead" src="Symposium.jpg" width="330" height="500">
+                <ul>
+                    <li class="song-container"><div class=" laufey-color">Laufey</div> - From The Start</li>
+                    <button onmousedown="sound4.play()" class="btn">Play</button>
+                    
+                </ul>
+                <ul>
+                    <li class="song-container-aimer"><div class="aimer-color">Aimer</div> - Brave Shine</li>
+                    <button onmousedown="sound5.play()" class="btn-aimer">Play</button>
+                </ul>
+                <ul>
+                    <li class="song-container-symposium"><div class="symposium">Symposium</div> - The Physical <br>Attraction</li>
+                    <button onmousedown="sound6.play()" class="btn-symposium">Play</button>
+                </ul>
+               
+
+            </div>
+            <script>
+                var sound4 = new Audio();
+                sound4.src = "Laufey - From The Start.mp3"
+                var sound5 = new Audio();
+                sound5.src = "Aimer - Brave Shine.mp3"
+                var sound6 = new Audio();
+                sound6.src = "The Symposium - The Physical Attractions.mp3"
+             </script>
+        </div>
+       
+        <!--Container-3 -->
+        <div class="container-2">
+           
+
+            <div class="music-container">
+                 <img class="laufey" src="sleeping-with-sirens-with-ears-to-see-and-eyes-to-hear-cover-art.png" width="500"> 
+                <img class="aimer" src="Atarashi.png" width="500">
+                <img class="radiohead" src="Deftone.png" width="330" height="500">
+                <ul>
+                    <li class="song-container"><div class=" laufey-color">Sleeping with Siren</div> - If you can't hang</li>
+                    <button onmousedown="sound7.play()" class="btn">Play</button>
+                    
+                </ul>
+                <ul>
+                    <li class="song-container-atarashi"><div class="aimer-color">Atarashi Gakou</div> - Love Betrayal</li>
+                    <button onmousedown="sound8.play()" class="btn-atarashi">Play</button>
+                </ul>
+                <ul>
+                    <li class="song-container-deftone"><div class="symposium">Deftone</div> - Deftones Change<br> In The House Of Flies </li>
+                    <button onmousedown="sound9.play()" class="btn-deftone">Play</button>
+                </ul>
+               
+
+            </div>
+            <script>
+                var sound7 = new Audio();
+                sound7.src = "Sleeping With Sirens - If You Can't Hang (Official Music Video).mp3"
+                var sound8 = new Audio();
+                sound8.src = "ATARASHII GAKKO! - 新しい学校のリーダーズ ｢恋の遮断機 feat.H ZETTRIO｣.mp3"
+                var sound9 = new Audio();
+                sound9.src = "Deftones - Change (In The House Of Flies) [Official Music Video].mp3"
+             </script>
+        </div>
+       
+
+
+     
+
+</body>
+</html>
